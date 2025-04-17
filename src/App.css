@@ -36,7 +36,6 @@ button{
 #books{
   width: 100vw;
   height: 85vh;
-  background-color: beige;
   position: absolute;
   left: 0;bottom: 0;
 }
