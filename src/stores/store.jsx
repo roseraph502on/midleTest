@@ -1,7 +1,7 @@
 import { create } from "zustand";
 const store = create((set)=>({
-    isLoggedIn: false,
+    authenticate: false,
   
-    login: (userData) => set({ user: userData, isLoggedIn: true }),
+    login: (userData) => set({ authenticate: true }),
 }));
 export default store
