@@ -15,7 +15,7 @@ const NavBar = () => {
 
     return (
         <div id='nav'>
-            <h2 className='title' onClick={logoClick} >도서관</h2>
+            <h2 className='title' onClick={logoClick} >Books</h2>
             <div className='search'>
                 <input className='searchBox' type="text" />
                 <button className='searchBtn'></button>
