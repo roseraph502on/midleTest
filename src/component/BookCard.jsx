@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router'
-import React from 'react'
 
 const BookCard = () => {
   const [product, setProduct] = useState(null);
